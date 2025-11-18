@@ -1,6 +1,6 @@
 -- Allowed IP's For Servers
 local allowedIPs = {
-    "261.136.79.220", 
+    "26.136.79.220", 
 	"185.221.64.240",  
 	"185.221.64.241", 
 	"104.238.21.80",  
@@ -25,5 +25,6 @@ function script.update(dt)
 
     ac.broadcastSharedEvent("ngg_auth_status", isAllowed)
 end
+
 
 
